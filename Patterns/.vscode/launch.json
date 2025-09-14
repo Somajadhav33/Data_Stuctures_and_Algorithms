@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RevereNumber",
+      "request": "launch",
+      "mainClass": "RevereNumber",
+      "projectName": "Patterns_60d5d7d"
+    },
+    {
+      "type": "java",
+      "name": "SquarePattern",
+      "request": "launch",
+      "mainClass": "SquarePattern",
+      "projectName": "Patterns_60d5d7d"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/GitUpload/Data_Stuctures_and_Algorithems/Patterns",
+      "program": "c:/GitUpload/Data_Stuctures_and_Algorithems/Patterns/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
