@@ -1,0 +1,44 @@
+.home-container {
+  padding: 32px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.feature-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.dashboard-section {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 320px;
+}
+
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .dashboard-section {
+    justify-content: center;
+    min-width: unset;
+    margin-top: 24px;
+  }
+}

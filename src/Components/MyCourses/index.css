@@ -1,0 +1,13 @@
+.my-courses-container {
+  padding: 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  margin: 24px 0;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
