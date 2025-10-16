@@ -14,6 +14,4 @@ int tribonacci(int n) {
 
 int main(){
     tribonacci(25);
-
-    return 0;
 }
